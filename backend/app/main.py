@@ -46,17 +46,46 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+import traceback
+from fastapi import Request
+from fastapi.responses import JSONResponse
+
 # ─── Routers ─────────────────────────────────────────────────────────────────
-app.include_router(auth.router)
-app.include_router(datasets.router)
-app.include_router(quality.router)
-app.include_router(mining.router)
-app.include_router(insights.router)
-app.include_router(whatif.router)
-app.include_router(assistant.router)
-app.include_router(reports.router)
+routers = [
+    auth.router,
+    datasets.router,
+    quality.router,
+    mining.router,
+    insights.router,
+    whatif.router,
+    assistant.router,
+    reports.router,
+]
+
+for r in routers:
+    app.include_router(r)
+    app.include_router(r, prefix="/api")
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    error_msg = f"{type(exc).__name__}: {str(exc)}"
+    tb = traceback.format_exc()
+    print(f"[NexMine] Unhandled exception: {error_msg}\n{tb}")
+    origin = request.headers.get("origin") or "*"
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Server Error: {error_msg}"},
+        headers={
+            "Access-Control-Allow-Origin": origin,
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Methods": "*",
+            "Access-Control-Allow-Headers": "*",
+        },
+    )
 
 
 @app.get("/health", tags=["Health"])
 def health():
     return {"status": "ok", "app": settings.app_name}
+
