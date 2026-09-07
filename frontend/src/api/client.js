@@ -1,7 +1,10 @@
 import axios from 'axios'
 
+const rawBaseUrl = import.meta.env.VITE_API_URL || '/api'
+const baseURL = rawBaseUrl.endsWith('/') ? rawBaseUrl.slice(0, -1) : rawBaseUrl
+
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL,
   timeout: 30000,
   headers: { 'Content-Type': 'application/json' },
 })

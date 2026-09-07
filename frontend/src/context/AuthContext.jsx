@@ -45,7 +45,17 @@ export function AuthProvider({ children }) {
       saveSession(data)
       return { success: true }
     } catch (err) {
-      return { success: false, message: err.response?.data?.detail || 'Login failed' }
+      let message = 'Login failed'
+      if (err.response?.data?.detail) {
+        message = err.response.data.detail
+      } else if (err.response?.status === 404) {
+        message = 'API not found (404). Please set VITE_API_URL in Vercel environment variables.'
+      } else if (err.code === 'ERR_NETWORK' || err.message === 'Network Error') {
+        message = 'Cannot reach backend server. Check backend deployment and CORS settings.'
+      } else if (err.message) {
+        message = err.message
+      }
+      return { success: false, message }
     } finally {
       setLoading(false)
     }
@@ -58,7 +68,17 @@ export function AuthProvider({ children }) {
       saveSession(data)
       return { success: true }
     } catch (err) {
-      return { success: false, message: err.response?.data?.detail || 'Registration failed' }
+      let message = 'Registration failed'
+      if (err.response?.data?.detail) {
+        message = err.response.data.detail
+      } else if (err.response?.status === 404) {
+        message = 'API not found (404). Please set VITE_API_URL in Vercel environment variables.'
+      } else if (err.code === 'ERR_NETWORK' || err.message === 'Network Error') {
+        message = 'Cannot reach backend server. Check backend deployment and CORS settings.'
+      } else if (err.message) {
+        message = err.message
+      }
+      return { success: false, message }
     } finally {
       setLoading(false)
     }
