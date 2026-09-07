@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Eye, EyeOff, Mail, Lock, ArrowRight, Loader2 } from 'lucide-react'
+import { Eye, EyeOff, Mail, Lock, ArrowRight, Loader2, AlertCircle } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
 import toast from 'react-hot-toast'
 
@@ -11,6 +11,7 @@ export default function Login() {
   const [showPass, setShowPass] = useState(false)
   const [loading, setLoading] = useState(false)
   const [errors, setErrors] = useState({})
+  const [serverError, setServerError] = useState('')
 
   function validate() {
     const e = {}
@@ -22,6 +23,7 @@ export default function Login() {
 
   async function handleSubmit(ev) {
     ev.preventDefault()
+    setServerError('')
     if (!validate()) return
     setLoading(true)
     const result = await login(form.email, form.password)
@@ -30,6 +32,7 @@ export default function Login() {
       toast.success('Welcome back!')
       navigate('/app/dashboard')
     } else {
+      setServerError(result.message)
       toast.error(result.message)
     }
   }
@@ -37,9 +40,39 @@ export default function Login() {
   return (
     <AuthShell>
       <h2 style={{ textAlign: 'center', marginBottom: 8 }}>Welcome back</h2>
-      <p style={{ textAlign: 'center', color: 'var(--color-text-3)', marginBottom: 32, fontSize: 14 }}>
+      <p style={{ textAlign: 'center', color: 'var(--color-text-3)', marginBottom: 24, fontSize: 14 }}>
         Sign in to your Nex Mine account
       </p>
+
+      {serverError && (
+        <div style={{
+          background: 'rgba(239, 68, 68, 0.12)',
+          border: '1px solid rgba(239, 68, 68, 0.35)',
+          color: '#f87171',
+          padding: '12px 14px',
+          borderRadius: '8px',
+          fontSize: 13,
+          marginBottom: 20,
+          display: 'flex',
+          alignItems: 'flex-start',
+          gap: 10,
+          lineHeight: 1.4,
+        }}>
+          <AlertCircle size={18} style={{ flexShrink: 0, marginTop: 1 }} />
+          <div>
+            <div>{serverError}</div>
+            {serverError.toLowerCase().includes('incorrect') && (
+              <div style={{ marginTop: 6, fontSize: 12 }}>
+                New deployment? You might need to{' '}
+                <Link to="/signup" style={{ color: 'var(--color-primary-l)', fontWeight: 600, textDecoration: 'underline' }}>
+                  create an account
+                </Link>{' '}
+                first.
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       <form onSubmit={handleSubmit} noValidate style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
         <div className="form-group">

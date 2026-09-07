@@ -10,6 +10,15 @@ from app.routers import whatif
 from app.routers import assistant
 from app.routers import reports
 
+from app.database import Base, engine
+import app.models  # noqa: F401
+
+# Auto-create all tables on startup if missing
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception as e:
+    print(f"[NexMine] Warning: table auto-creation failed: {e}")
+
 app = FastAPI(
     title="Nex Mine API",
     description="AI-Enhanced Data Mining for Small Businesses",

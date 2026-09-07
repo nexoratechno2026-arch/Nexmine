@@ -18,14 +18,22 @@ client.interceptors.request.use((config) => {
   return config
 })
 
-// Handle 401 globally — clear token and redirect to login
+// Handle 401 globally — clear token and redirect to login only on authenticated routes
 client.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
+    const url = error.config?.url || ''
+    const isAuthRoute = url.includes('/auth/login') ||
+                        url.includes('/auth/register') ||
+                        url.includes('/auth/forgot-password') ||
+                        url.includes('/auth/reset-password')
+
+    if (error.response?.status === 401 && !isAuthRoute) {
       localStorage.removeItem('nexmine_token')
       localStorage.removeItem('nexmine_user')
-      window.location.href = '/login'
+      if (window.location.pathname !== '/login' && window.location.pathname !== '/signup') {
+        window.location.href = '/login'
+      }
     }
     return Promise.reject(error)
   }
