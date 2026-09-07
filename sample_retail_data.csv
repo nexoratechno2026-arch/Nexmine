@@ -1,0 +1,1411 @@
+transaction_id,date,customer_id,product,category,quantity,unit_price,total_amount,discount,location,payment_method
+TX-1001,2025-01-01,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1002,2025-01-01,CUST_053,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1002,2025-01-01,CUST_053,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Debit Card
+TX-1003,2025-01-01,CUST_059,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Debit Card
+TX-1004,2025-01-01,CUST_039,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1004,2025-01-01,CUST_039,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Delhi NCR,Debit Card
+TX-1005,2025-01-01,CUST_044,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Net Banking
+TX-1005,2025-01-01,CUST_044,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1006,2025-01-01,CUST_018,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Debit Card
+TX-1006,2025-01-01,CUST_018,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Debit Card
+TX-1007,2025-01-01,CUST_053,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1007,2025-01-01,CUST_053,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,UPI
+TX-1007,2025-01-01,CUST_053,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1008,2025-01-01,CUST_015,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1008,2025-01-01,CUST_015,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1008,2025-01-01,CUST_015,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,UPI
+TX-1009,2025-01-02,CUST_011,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Bengaluru,UPI
+TX-1010,2025-01-02,CUST_012,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1010,2025-01-02,CUST_012,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1010,2025-01-02,CUST_012,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1011,2025-01-02,CUST_044,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1011,2025-01-02,CUST_044,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1011,2025-01-02,CUST_044,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Net Banking
+TX-1012,2025-01-02,CUST_003,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1012,2025-01-02,CUST_003,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Cash on Delivery
+TX-1013,2025-01-02,CUST_027,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1013,2025-01-02,CUST_027,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1013,2025-01-02,CUST_027,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1014,2025-01-02,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1015,2025-01-02,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1015,2025-01-02,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,UPI
+TX-1015,2025-01-02,CUST_045,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,UPI
+TX-1016,2025-01-02,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1016,2025-01-02,CUST_030,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Net Banking
+TX-1016,2025-01-02,CUST_030,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Net Banking
+TX-1017,2025-01-03,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Net Banking
+TX-1017,2025-01-03,CUST_001,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Net Banking
+TX-1018,2025-01-03,CUST_003,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1018,2025-01-03,CUST_003,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1018,2025-01-03,CUST_003,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Net Banking
+TX-1019,2025-01-03,CUST_044,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1019,2025-01-03,CUST_044,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1019,2025-01-03,CUST_044,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1020,2025-01-03,CUST_012,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Credit Card
+TX-1021,2025-01-03,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1021,2025-01-03,CUST_001,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Credit Card
+TX-1021,2025-01-03,CUST_001,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Credit Card
+TX-1022,2025-01-03,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1022,2025-01-03,CUST_068,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Net Banking
+TX-1023,2025-01-03,CUST_070,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Pune,Net Banking
+TX-1023,2025-01-03,CUST_070,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Net Banking
+TX-1024,2025-01-04,CUST_019,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Hyderabad,Debit Card
+TX-1024,2025-01-04,CUST_019,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Debit Card
+TX-1025,2025-01-04,CUST_042,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1025,2025-01-04,CUST_042,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1026,2025-01-04,CUST_060,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Credit Card
+TX-1026,2025-01-04,CUST_060,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1027,2025-01-04,CUST_020,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1027,2025-01-04,CUST_020,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,UPI
+TX-1027,2025-01-04,CUST_020,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,UPI
+TX-1028,2025-01-05,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Credit Card
+TX-1028,2025-01-05,CUST_025,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Credit Card
+TX-1028,2025-01-05,CUST_025,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Credit Card
+TX-1029,2025-01-05,CUST_061,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Mumbai,Debit Card
+TX-1030,2025-01-05,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1030,2025-01-05,CUST_059,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1031,2025-01-05,CUST_021,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1031,2025-01-05,CUST_021,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,UPI
+TX-1031,2025-01-05,CUST_021,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,UPI
+TX-1032,2025-01-05,CUST_061,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1032,2025-01-05,CUST_061,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Debit Card
+TX-1032,2025-01-05,CUST_061,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Debit Card
+TX-1033,2025-01-05,CUST_030,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Chennai,Cash on Delivery
+TX-1033,2025-01-05,CUST_030,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Cash on Delivery
+TX-1034,2025-01-05,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1034,2025-01-05,CUST_063,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Cash on Delivery
+TX-1034,2025-01-05,CUST_063,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Cash on Delivery
+TX-1035,2025-01-06,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1035,2025-01-06,CUST_025,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,Credit Card
+TX-1036,2025-01-06,CUST_002,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,UPI
+TX-1037,2025-01-06,CUST_060,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1037,2025-01-06,CUST_060,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,UPI
+TX-1037,2025-01-06,CUST_060,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,UPI
+TX-1038,2025-01-07,CUST_016,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,Debit Card
+TX-1039,2025-01-07,CUST_062,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Credit Card
+TX-1040,2025-01-07,CUST_060,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1040,2025-01-07,CUST_060,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1040,2025-01-07,CUST_060,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Debit Card
+TX-1041,2025-01-07,CUST_047,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1041,2025-01-07,CUST_047,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1042,2025-01-07,CUST_030,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1042,2025-01-07,CUST_030,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1042,2025-01-07,CUST_030,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,UPI
+TX-1043,2025-01-07,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1043,2025-01-07,CUST_062,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Debit Card
+TX-1043,2025-01-07,CUST_062,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Debit Card
+TX-1044,2025-01-07,CUST_034,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Pune,UPI
+TX-1045,2025-01-08,CUST_057,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1045,2025-01-08,CUST_057,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1045,2025-01-08,CUST_057,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Debit Card
+TX-1046,2025-01-08,CUST_069,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Credit Card
+TX-1047,2025-01-08,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1047,2025-01-08,CUST_069,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Credit Card
+TX-1047,2025-01-08,CUST_069,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Credit Card
+TX-1048,2025-01-08,CUST_001,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1048,2025-01-08,CUST_001,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Cash on Delivery
+TX-1048,2025-01-08,CUST_001,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Cash on Delivery
+TX-1049,2025-01-09,CUST_032,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1049,2025-01-09,CUST_032,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Debit Card
+TX-1049,2025-01-09,CUST_032,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,Debit Card
+TX-1050,2025-01-09,CUST_033,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Chennai,Net Banking
+TX-1050,2025-01-09,CUST_033,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1051,2025-01-10,CUST_002,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1051,2025-01-10,CUST_002,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Net Banking
+TX-1051,2025-01-10,CUST_002,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Net Banking
+TX-1052,2025-01-10,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1052,2025-01-10,CUST_026,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Credit Card
+TX-1052,2025-01-10,CUST_026,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Credit Card
+TX-1053,2025-01-10,CUST_058,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1053,2025-01-10,CUST_058,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Credit Card
+TX-1054,2025-01-10,CUST_021,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1054,2025-01-10,CUST_021,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,UPI
+TX-1054,2025-01-10,CUST_021,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,UPI
+TX-1055,2025-01-10,CUST_049,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1055,2025-01-10,CUST_049,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Debit Card
+TX-1056,2025-01-10,CUST_023,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1056,2025-01-10,CUST_023,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Cash on Delivery
+TX-1056,2025-01-10,CUST_023,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Cash on Delivery
+TX-1057,2025-01-10,CUST_030,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1057,2025-01-10,CUST_030,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,UPI
+TX-1058,2025-01-11,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1058,2025-01-11,CUST_059,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,UPI
+TX-1059,2025-01-11,CUST_009,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1059,2025-01-11,CUST_009,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1060,2025-01-11,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1060,2025-01-11,CUST_069,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1060,2025-01-11,CUST_069,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Debit Card
+TX-1061,2025-01-11,CUST_023,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Mumbai,Cash on Delivery
+TX-1061,2025-01-11,CUST_023,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1062,2025-01-11,CUST_009,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1062,2025-01-11,CUST_009,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Credit Card
+TX-1062,2025-01-11,CUST_009,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Credit Card
+TX-1063,2025-01-11,CUST_013,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Delhi NCR,UPI
+TX-1063,2025-01-11,CUST_013,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1064,2025-01-12,CUST_017,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1064,2025-01-12,CUST_017,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Mumbai,Cash on Delivery
+TX-1065,2025-01-12,CUST_067,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1065,2025-01-12,CUST_067,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Cash on Delivery
+TX-1065,2025-01-12,CUST_067,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Cash on Delivery
+TX-1066,2025-01-12,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1067,2025-01-12,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1067,2025-01-12,CUST_045,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Cash on Delivery
+TX-1067,2025-01-12,CUST_045,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Cash on Delivery
+TX-1068,2025-01-12,CUST_036,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1068,2025-01-12,CUST_036,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1069,2025-01-13,CUST_012,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1069,2025-01-13,CUST_012,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Debit Card
+TX-1069,2025-01-13,CUST_012,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Debit Card
+TX-1070,2025-01-13,CUST_036,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1070,2025-01-13,CUST_036,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Credit Card
+TX-1070,2025-01-13,CUST_036,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Credit Card
+TX-1071,2025-01-14,CUST_064,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1071,2025-01-14,CUST_064,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,UPI
+TX-1071,2025-01-14,CUST_064,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,UPI
+TX-1072,2025-01-14,CUST_029,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1072,2025-01-14,CUST_029,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Chennai,Net Banking
+TX-1073,2025-01-14,CUST_005,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1073,2025-01-14,CUST_005,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,UPI
+TX-1074,2025-01-14,CUST_026,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Mumbai,Net Banking
+TX-1075,2025-01-14,CUST_069,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1075,2025-01-14,CUST_069,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1076,2025-01-15,CUST_074,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1076,2025-01-15,CUST_074,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,UPI
+TX-1076,2025-01-15,CUST_074,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,UPI
+TX-1077,2025-01-15,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1077,2025-01-15,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1077,2025-01-15,CUST_045,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Debit Card
+TX-1078,2025-01-15,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1078,2025-01-15,CUST_072,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Credit Card
+TX-1079,2025-01-16,CUST_012,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1079,2025-01-16,CUST_012,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Debit Card
+TX-1080,2025-01-16,CUST_017,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1080,2025-01-16,CUST_017,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Cash on Delivery
+TX-1081,2025-01-16,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1081,2025-01-16,CUST_038,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Credit Card
+TX-1081,2025-01-16,CUST_038,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Credit Card
+TX-1082,2025-01-17,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1082,2025-01-17,CUST_051,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1082,2025-01-17,CUST_051,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Debit Card
+TX-1083,2025-01-17,CUST_030,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Net Banking
+TX-1084,2025-01-17,CUST_053,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1084,2025-01-17,CUST_053,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1084,2025-01-17,CUST_053,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Cash on Delivery
+TX-1085,2025-01-17,CUST_023,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1085,2025-01-17,CUST_023,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Debit Card
+TX-1085,2025-01-17,CUST_023,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Debit Card
+TX-1086,2025-01-18,CUST_027,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1086,2025-01-18,CUST_027,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Credit Card
+TX-1086,2025-01-18,CUST_027,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Credit Card
+TX-1087,2025-01-18,CUST_042,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1087,2025-01-18,CUST_042,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Cash on Delivery
+TX-1087,2025-01-18,CUST_042,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Cash on Delivery
+TX-1088,2025-01-18,CUST_046,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1088,2025-01-18,CUST_046,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,UPI
+TX-1089,2025-01-18,CUST_026,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,UPI
+TX-1089,2025-01-18,CUST_026,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1090,2025-01-19,CUST_014,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1090,2025-01-19,CUST_014,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1090,2025-01-19,CUST_014,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Debit Card
+TX-1091,2025-01-19,CUST_014,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1092,2025-01-19,CUST_028,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1092,2025-01-19,CUST_028,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1093,2025-01-19,CUST_018,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1093,2025-01-19,CUST_018,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Credit Card
+TX-1093,2025-01-19,CUST_018,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Credit Card
+TX-1094,2025-01-19,CUST_042,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1094,2025-01-19,CUST_042,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Cash on Delivery
+TX-1095,2025-01-19,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1095,2025-01-19,CUST_059,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Cash on Delivery
+TX-1096,2025-01-19,CUST_022,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Chennai,Debit Card
+TX-1096,2025-01-19,CUST_022,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1097,2025-01-20,CUST_066,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,Debit Card
+TX-1098,2025-01-20,CUST_008,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1099,2025-01-20,CUST_047,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Credit Card
+TX-1099,2025-01-20,CUST_047,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Mumbai,Credit Card
+TX-1100,2025-01-20,CUST_023,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1100,2025-01-20,CUST_023,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Debit Card
+TX-1100,2025-01-20,CUST_023,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Debit Card
+TX-1101,2025-01-20,CUST_063,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Chennai,UPI
+TX-1102,2025-01-20,CUST_050,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Cash on Delivery
+TX-1103,2025-01-20,CUST_014,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1103,2025-01-20,CUST_014,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Net Banking
+TX-1104,2025-01-21,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Debit Card
+TX-1104,2025-01-21,CUST_026,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Debit Card
+TX-1104,2025-01-21,CUST_026,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Debit Card
+TX-1105,2025-01-21,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1105,2025-01-21,CUST_072,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1105,2025-01-21,CUST_072,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1106,2025-01-21,CUST_025,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1106,2025-01-21,CUST_025,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,UPI
+TX-1106,2025-01-21,CUST_025,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,UPI
+TX-1107,2025-01-21,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1107,2025-01-21,CUST_051,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Net Banking
+TX-1107,2025-01-21,CUST_051,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Net Banking
+TX-1108,2025-01-21,CUST_015,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1108,2025-01-21,CUST_015,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,UPI
+TX-1109,2025-01-21,CUST_029,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1109,2025-01-21,CUST_029,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,UPI
+TX-1109,2025-01-21,CUST_029,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,UPI
+TX-1110,2025-01-21,CUST_068,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Credit Card
+TX-1111,2025-01-22,CUST_029,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1112,2025-01-22,CUST_011,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1112,2025-01-22,CUST_011,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1112,2025-01-22,CUST_011,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Credit Card
+TX-1113,2025-01-22,CUST_046,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Bengaluru,Debit Card
+TX-1113,2025-01-22,CUST_046,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Bengaluru,Debit Card
+TX-1114,2025-01-22,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1114,2025-01-22,CUST_072,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,UPI
+TX-1115,2025-01-22,CUST_051,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,UPI
+TX-1116,2025-01-22,CUST_063,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1116,2025-01-22,CUST_063,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1116,2025-01-22,CUST_063,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1117,2025-01-23,CUST_074,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,UPI
+TX-1117,2025-01-23,CUST_074,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,UPI
+TX-1117,2025-01-23,CUST_074,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,UPI
+TX-1118,2025-01-23,CUST_025,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Net Banking
+TX-1119,2025-01-24,CUST_071,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Cash on Delivery
+TX-1120,2025-01-24,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1120,2025-01-24,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1120,2025-01-24,CUST_063,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,UPI
+TX-1121,2025-01-25,CUST_056,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1121,2025-01-25,CUST_056,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Cash on Delivery
+TX-1121,2025-01-25,CUST_056,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1122,2025-01-25,CUST_019,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1123,2025-01-25,CUST_004,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1123,2025-01-25,CUST_004,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1124,2025-01-25,CUST_074,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1124,2025-01-25,CUST_074,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Credit Card
+TX-1124,2025-01-25,CUST_074,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Credit Card
+TX-1125,2025-01-26,CUST_007,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1125,2025-01-26,CUST_007,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,UPI
+TX-1125,2025-01-26,CUST_007,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,UPI
+TX-1126,2025-01-26,CUST_072,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,UPI
+TX-1127,2025-01-26,CUST_046,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Bengaluru,Debit Card
+TX-1127,2025-01-26,CUST_046,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Bengaluru,Debit Card
+TX-1128,2025-01-27,CUST_036,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1129,2025-01-27,CUST_020,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1129,2025-01-27,CUST_020,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Cash on Delivery
+TX-1129,2025-01-27,CUST_020,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Cash on Delivery
+TX-1130,2025-01-27,CUST_044,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Bengaluru,Debit Card
+TX-1130,2025-01-27,CUST_044,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Bengaluru,Debit Card
+TX-1131,2025-01-27,CUST_009,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1131,2025-01-27,CUST_009,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Cash on Delivery
+TX-1131,2025-01-27,CUST_009,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Cash on Delivery
+TX-1132,2025-01-28,CUST_004,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Credit Card
+TX-1132,2025-01-28,CUST_004,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Delhi NCR,Credit Card
+TX-1133,2025-01-28,CUST_037,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Credit Card
+TX-1134,2025-01-28,CUST_053,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Cash on Delivery
+TX-1135,2025-01-28,CUST_026,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Cash on Delivery
+TX-1136,2025-01-28,CUST_022,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1136,2025-01-28,CUST_022,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1136,2025-01-28,CUST_022,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,UPI
+TX-1137,2025-01-28,CUST_062,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1137,2025-01-28,CUST_062,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1137,2025-01-28,CUST_062,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Cash on Delivery
+TX-1138,2025-01-28,CUST_073,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1138,2025-01-28,CUST_073,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,UPI
+TX-1139,2025-01-29,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1139,2025-01-29,CUST_025,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Net Banking
+TX-1139,2025-01-29,CUST_025,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1140,2025-01-29,CUST_012,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1140,2025-01-29,CUST_012,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Cash on Delivery
+TX-1141,2025-01-29,CUST_017,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1141,2025-01-29,CUST_017,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,UPI
+TX-1141,2025-01-29,CUST_017,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,UPI
+TX-1142,2025-01-30,CUST_008,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Chennai,UPI
+TX-1142,2025-01-30,CUST_008,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1143,2025-01-30,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1143,2025-01-30,CUST_026,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1143,2025-01-30,CUST_026,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1144,2025-01-30,CUST_014,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1144,2025-01-30,CUST_014,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1144,2025-01-30,CUST_014,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,UPI
+TX-1145,2025-01-30,CUST_039,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1145,2025-01-30,CUST_039,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Credit Card
+TX-1146,2025-01-31,CUST_024,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1146,2025-01-31,CUST_024,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Debit Card
+TX-1146,2025-01-31,CUST_024,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Debit Card
+TX-1147,2025-01-31,CUST_040,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1147,2025-01-31,CUST_040,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Debit Card
+TX-1148,2025-01-31,CUST_025,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1148,2025-01-31,CUST_025,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Credit Card
+TX-1148,2025-01-31,CUST_025,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Credit Card
+TX-1149,2025-01-31,CUST_066,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Bengaluru,Credit Card
+TX-1150,2025-01-31,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1150,2025-01-31,CUST_062,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Debit Card
+TX-1151,2025-01-31,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1151,2025-01-31,CUST_010,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,UPI
+TX-1151,2025-01-31,CUST_010,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,UPI
+TX-1152,2025-01-31,CUST_049,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1152,2025-01-31,CUST_049,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Cash on Delivery
+TX-1152,2025-01-31,CUST_049,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1153,2025-01-31,CUST_062,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1153,2025-01-31,CUST_062,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1154,2025-02-01,CUST_015,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1154,2025-02-01,CUST_015,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1155,2025-02-01,CUST_063,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,Net Banking
+TX-1155,2025-02-01,CUST_063,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Net Banking
+TX-1156,2025-02-02,CUST_074,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1156,2025-02-02,CUST_074,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Credit Card
+TX-1156,2025-02-02,CUST_074,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,Credit Card
+TX-1157,2025-02-02,CUST_006,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1157,2025-02-02,CUST_006,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Cash on Delivery
+TX-1157,2025-02-02,CUST_006,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Cash on Delivery
+TX-1158,2025-02-02,CUST_020,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1158,2025-02-02,CUST_020,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1158,2025-02-02,CUST_020,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,UPI
+TX-1159,2025-02-02,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Net Banking
+TX-1159,2025-02-02,CUST_062,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Mumbai,Net Banking
+TX-1160,2025-02-03,CUST_029,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Net Banking
+TX-1160,2025-02-03,CUST_029,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Mumbai,Net Banking
+TX-1161,2025-02-03,CUST_038,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1161,2025-02-03,CUST_038,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Cash on Delivery
+TX-1161,2025-02-03,CUST_038,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Cash on Delivery
+TX-1162,2025-02-03,CUST_048,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1162,2025-02-03,CUST_048,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1163,2025-02-03,CUST_045,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Pune,Cash on Delivery
+TX-1164,2025-02-04,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1164,2025-02-04,CUST_059,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,UPI
+TX-1164,2025-02-04,CUST_059,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,UPI
+TX-1165,2025-02-04,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1165,2025-02-04,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1166,2025-02-04,CUST_031,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Credit Card
+TX-1167,2025-02-04,CUST_013,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1168,2025-02-04,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1168,2025-02-04,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Debit Card
+TX-1169,2025-02-05,CUST_020,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,Credit Card
+TX-1169,2025-02-05,CUST_020,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Credit Card
+TX-1170,2025-02-05,CUST_050,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1170,2025-02-05,CUST_050,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Cash on Delivery
+TX-1171,2025-02-05,CUST_007,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Net Banking
+TX-1172,2025-02-05,CUST_013,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Cash on Delivery
+TX-1172,2025-02-05,CUST_013,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Mumbai,Cash on Delivery
+TX-1173,2025-02-05,CUST_021,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1174,2025-02-06,CUST_061,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,UPI
+TX-1174,2025-02-06,CUST_061,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Bengaluru,UPI
+TX-1175,2025-02-06,CUST_046,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1175,2025-02-06,CUST_046,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Debit Card
+TX-1176,2025-02-06,CUST_053,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1176,2025-02-06,CUST_053,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Credit Card
+TX-1177,2025-02-07,CUST_071,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1177,2025-02-07,CUST_071,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Debit Card
+TX-1177,2025-02-07,CUST_071,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Debit Card
+TX-1178,2025-02-07,CUST_060,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1178,2025-02-07,CUST_060,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Cash on Delivery
+TX-1179,2025-02-07,CUST_064,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1179,2025-02-07,CUST_064,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1179,2025-02-07,CUST_064,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,UPI
+TX-1180,2025-02-07,CUST_038,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1180,2025-02-07,CUST_038,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Bengaluru,Cash on Delivery
+TX-1181,2025-02-07,CUST_046,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Pune,Debit Card
+TX-1181,2025-02-07,CUST_046,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Debit Card
+TX-1182,2025-02-07,CUST_026,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Pune,Credit Card
+TX-1182,2025-02-07,CUST_026,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,Credit Card
+TX-1183,2025-02-07,CUST_006,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1183,2025-02-07,CUST_006,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,UPI
+TX-1183,2025-02-07,CUST_006,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,UPI
+TX-1184,2025-02-08,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1184,2025-02-08,CUST_062,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Net Banking
+TX-1185,2025-02-08,CUST_004,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1186,2025-02-08,CUST_012,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1186,2025-02-08,CUST_012,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,UPI
+TX-1187,2025-02-09,CUST_070,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Net Banking
+TX-1187,2025-02-09,CUST_070,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Net Banking
+TX-1188,2025-02-09,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Debit Card
+TX-1188,2025-02-09,CUST_059,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Debit Card
+TX-1188,2025-02-09,CUST_059,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Debit Card
+TX-1189,2025-02-09,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1189,2025-02-09,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Debit Card
+TX-1190,2025-02-09,CUST_061,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1190,2025-02-09,CUST_061,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Cash on Delivery
+TX-1190,2025-02-09,CUST_061,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Cash on Delivery
+TX-1191,2025-02-09,CUST_024,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1191,2025-02-09,CUST_024,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,UPI
+TX-1191,2025-02-09,CUST_024,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,UPI
+TX-1192,2025-02-10,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1192,2025-02-10,CUST_066,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1192,2025-02-10,CUST_066,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Debit Card
+TX-1193,2025-02-10,CUST_012,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1193,2025-02-10,CUST_012,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1194,2025-02-10,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1194,2025-02-10,CUST_026,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Credit Card
+TX-1195,2025-02-11,CUST_069,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1195,2025-02-11,CUST_069,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Cash on Delivery
+TX-1195,2025-02-11,CUST_069,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Cash on Delivery
+TX-1196,2025-02-11,CUST_014,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1196,2025-02-11,CUST_014,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Debit Card
+TX-1196,2025-02-11,CUST_014,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Debit Card
+TX-1197,2025-02-11,CUST_028,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Delhi NCR,Net Banking
+TX-1198,2025-02-11,CUST_074,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Chennai,Credit Card
+TX-1199,2025-02-11,CUST_037,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1199,2025-02-11,CUST_037,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Debit Card
+TX-1200,2025-02-11,CUST_056,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1200,2025-02-11,CUST_056,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Debit Card
+TX-1200,2025-02-11,CUST_056,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Debit Card
+TX-1201,2025-02-12,CUST_037,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1201,2025-02-12,CUST_037,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Credit Card
+TX-1201,2025-02-12,CUST_037,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Credit Card
+TX-1202,2025-02-12,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1202,2025-02-12,CUST_059,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,UPI
+TX-1202,2025-02-12,CUST_059,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,UPI
+TX-1203,2025-02-13,CUST_043,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1203,2025-02-13,CUST_043,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1204,2025-02-13,CUST_056,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1204,2025-02-13,CUST_056,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1204,2025-02-13,CUST_056,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1205,2025-02-13,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1205,2025-02-13,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Credit Card
+TX-1205,2025-02-13,CUST_045,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Credit Card
+TX-1206,2025-02-13,CUST_001,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Cash on Delivery
+TX-1207,2025-02-13,CUST_017,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1207,2025-02-13,CUST_017,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1208,2025-02-13,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1208,2025-02-13,CUST_068,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,UPI
+TX-1208,2025-02-13,CUST_068,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,UPI
+TX-1209,2025-02-14,CUST_062,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Credit Card
+TX-1209,2025-02-14,CUST_062,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Credit Card
+TX-1210,2025-02-14,CUST_068,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Cash on Delivery
+TX-1210,2025-02-14,CUST_068,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1211,2025-02-14,CUST_001,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1211,2025-02-14,CUST_001,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,UPI
+TX-1211,2025-02-14,CUST_001,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,UPI
+TX-1212,2025-02-14,CUST_015,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1212,2025-02-14,CUST_015,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1212,2025-02-14,CUST_015,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Net Banking
+TX-1213,2025-02-14,CUST_035,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1213,2025-02-14,CUST_035,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Credit Card
+TX-1213,2025-02-14,CUST_035,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Credit Card
+TX-1214,2025-02-14,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1214,2025-02-14,CUST_066,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,UPI
+TX-1215,2025-02-15,CUST_070,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1216,2025-02-15,CUST_070,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Pune,Credit Card
+TX-1217,2025-02-15,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1217,2025-02-15,CUST_051,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Cash on Delivery
+TX-1217,2025-02-15,CUST_051,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Cash on Delivery
+TX-1218,2025-02-15,CUST_068,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Chennai,Debit Card
+TX-1219,2025-02-15,CUST_007,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Credit Card
+TX-1220,2025-02-15,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1220,2025-02-15,CUST_001,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1221,2025-02-15,CUST_022,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Cash on Delivery
+TX-1222,2025-02-15,CUST_049,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,Net Banking
+TX-1222,2025-02-15,CUST_049,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1223,2025-02-15,CUST_074,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1223,2025-02-15,CUST_074,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1223,2025-02-15,CUST_074,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1224,2025-02-15,CUST_033,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1224,2025-02-15,CUST_033,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1224,2025-02-15,CUST_033,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,UPI
+TX-1225,2025-02-15,CUST_071,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1225,2025-02-15,CUST_071,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1225,2025-02-15,CUST_071,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1226,2025-02-15,CUST_025,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1226,2025-02-15,CUST_025,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Net Banking
+TX-1227,2025-02-15,CUST_039,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1227,2025-02-15,CUST_039,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,UPI
+TX-1227,2025-02-15,CUST_039,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,UPI
+TX-1228,2025-02-15,CUST_068,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Credit Card
+TX-1229,2025-02-15,CUST_041,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1229,2025-02-15,CUST_041,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1229,2025-02-15,CUST_041,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Cash on Delivery
+TX-1230,2025-02-15,CUST_027,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Credit Card
+TX-1230,2025-02-15,CUST_027,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Credit Card
+TX-1231,2025-02-15,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1231,2025-02-15,CUST_030,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Debit Card
+TX-1232,2025-02-15,CUST_031,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1232,2025-02-15,CUST_031,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1232,2025-02-15,CUST_031,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1233,2025-02-15,CUST_017,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1233,2025-02-15,CUST_017,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1233,2025-02-15,CUST_017,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Debit Card
+TX-1234,2025-02-15,CUST_005,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1234,2025-02-15,CUST_005,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Debit Card
+TX-1234,2025-02-15,CUST_005,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Debit Card
+TX-1235,2025-02-15,CUST_022,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1235,2025-02-15,CUST_022,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,UPI
+TX-1235,2025-02-15,CUST_022,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,UPI
+TX-1236,2025-02-15,CUST_014,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,UPI
+TX-1236,2025-02-15,CUST_014,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,UPI
+TX-1236,2025-02-15,CUST_014,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,UPI
+TX-1237,2025-02-15,CUST_002,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1237,2025-02-15,CUST_002,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1237,2025-02-15,CUST_002,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1238,2025-02-15,CUST_023,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,Debit Card
+TX-1238,2025-02-15,CUST_023,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1239,2025-02-15,CUST_049,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1239,2025-02-15,CUST_049,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Credit Card
+TX-1240,2025-02-15,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1240,2025-02-15,CUST_030,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Net Banking
+TX-1241,2025-02-15,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1241,2025-02-15,CUST_010,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1242,2025-02-15,CUST_014,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1242,2025-02-15,CUST_014,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1243,2025-02-15,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1243,2025-02-15,CUST_025,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Cash on Delivery
+TX-1243,2025-02-15,CUST_025,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Cash on Delivery
+TX-1244,2025-02-15,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1244,2025-02-15,CUST_068,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1245,2025-02-15,CUST_060,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1245,2025-02-15,CUST_060,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1245,2025-02-15,CUST_060,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Net Banking
+TX-1246,2025-02-15,CUST_011,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1246,2025-02-15,CUST_011,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Cash on Delivery
+TX-1246,2025-02-15,CUST_011,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Cash on Delivery
+TX-1247,2025-02-15,CUST_009,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1247,2025-02-15,CUST_009,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Cash on Delivery
+TX-1247,2025-02-15,CUST_009,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Cash on Delivery
+TX-1248,2025-02-15,CUST_016,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1248,2025-02-15,CUST_016,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,UPI
+TX-1249,2025-02-15,CUST_052,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Debit Card
+TX-1249,2025-02-15,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1250,2025-02-16,CUST_014,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1250,2025-02-16,CUST_014,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Chennai,Cash on Delivery
+TX-1251,2025-02-16,CUST_039,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1251,2025-02-16,CUST_039,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1252,2025-02-16,CUST_053,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Cash on Delivery
+TX-1252,2025-02-16,CUST_053,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Cash on Delivery
+TX-1253,2025-02-16,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1253,2025-02-16,CUST_068,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Debit Card
+TX-1253,2025-02-16,CUST_068,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Debit Card
+TX-1254,2025-02-16,CUST_052,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Chennai,Credit Card
+TX-1255,2025-02-16,CUST_029,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Mumbai,Credit Card
+TX-1255,2025-02-16,CUST_029,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Credit Card
+TX-1256,2025-02-16,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1257,2025-02-17,CUST_024,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1257,2025-02-17,CUST_024,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Cash on Delivery
+TX-1257,2025-02-17,CUST_024,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Cash on Delivery
+TX-1258,2025-02-17,CUST_011,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1258,2025-02-17,CUST_011,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Hyderabad,Net Banking
+TX-1259,2025-02-17,CUST_008,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1259,2025-02-17,CUST_008,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,UPI
+TX-1259,2025-02-17,CUST_008,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,UPI
+TX-1260,2025-02-17,CUST_068,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1260,2025-02-17,CUST_068,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,UPI
+TX-1260,2025-02-17,CUST_068,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,UPI
+TX-1261,2025-02-18,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1261,2025-02-18,CUST_010,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1262,2025-02-18,CUST_013,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1262,2025-02-18,CUST_013,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1262,2025-02-18,CUST_013,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Debit Card
+TX-1263,2025-02-18,CUST_018,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1263,2025-02-18,CUST_018,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,UPI
+TX-1263,2025-02-18,CUST_018,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,UPI
+TX-1264,2025-02-19,CUST_022,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1264,2025-02-19,CUST_022,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Debit Card
+TX-1264,2025-02-19,CUST_022,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Debit Card
+TX-1265,2025-02-19,CUST_021,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1266,2025-02-19,CUST_008,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Debit Card
+TX-1266,2025-02-19,CUST_008,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Debit Card
+TX-1266,2025-02-19,CUST_008,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Debit Card
+TX-1267,2025-02-20,CUST_022,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Hyderabad,Cash on Delivery
+TX-1267,2025-02-20,CUST_022,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,Cash on Delivery
+TX-1268,2025-02-20,CUST_056,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1268,2025-02-20,CUST_056,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Net Banking
+TX-1268,2025-02-20,CUST_056,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Net Banking
+TX-1269,2025-02-21,CUST_008,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1269,2025-02-21,CUST_008,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Credit Card
+TX-1269,2025-02-21,CUST_008,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Credit Card
+TX-1270,2025-02-21,CUST_065,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1270,2025-02-21,CUST_065,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Net Banking
+TX-1271,2025-02-22,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1271,2025-02-22,CUST_010,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Net Banking
+TX-1271,2025-02-22,CUST_010,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Net Banking
+TX-1272,2025-02-22,CUST_036,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Credit Card
+TX-1272,2025-02-22,CUST_036,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Pune,Credit Card
+TX-1273,2025-02-23,CUST_058,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1273,2025-02-23,CUST_058,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Cash on Delivery
+TX-1274,2025-02-23,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1274,2025-02-23,CUST_026,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Cash on Delivery
+TX-1274,2025-02-23,CUST_026,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Cash on Delivery
+TX-1275,2025-02-23,CUST_046,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Hyderabad,Debit Card
+TX-1275,2025-02-23,CUST_046,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Debit Card
+TX-1276,2025-02-23,CUST_004,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Credit Card
+TX-1276,2025-02-23,CUST_004,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Credit Card
+TX-1277,2025-02-24,CUST_019,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Net Banking
+TX-1277,2025-02-24,CUST_019,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Net Banking
+TX-1277,2025-02-24,CUST_019,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Net Banking
+TX-1278,2025-02-24,CUST_031,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1278,2025-02-24,CUST_031,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Net Banking
+TX-1278,2025-02-24,CUST_031,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Net Banking
+TX-1279,2025-02-24,CUST_055,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1279,2025-02-24,CUST_055,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Credit Card
+TX-1279,2025-02-24,CUST_055,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Credit Card
+TX-1280,2025-02-24,CUST_047,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1281,2025-02-24,CUST_009,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1281,2025-02-24,CUST_009,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Cash on Delivery
+TX-1281,2025-02-24,CUST_009,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Cash on Delivery
+TX-1282,2025-02-25,CUST_070,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Net Banking
+TX-1282,2025-02-25,CUST_070,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Net Banking
+TX-1283,2025-02-25,CUST_035,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Credit Card
+TX-1284,2025-02-25,CUST_039,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1284,2025-02-25,CUST_039,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Net Banking
+TX-1285,2025-02-25,CUST_041,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Debit Card
+TX-1285,2025-02-25,CUST_041,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Debit Card
+TX-1285,2025-02-25,CUST_041,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Debit Card
+TX-1286,2025-02-25,CUST_036,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1286,2025-02-25,CUST_036,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1286,2025-02-25,CUST_036,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1287,2025-02-25,CUST_055,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1287,2025-02-25,CUST_055,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Credit Card
+TX-1288,2025-02-26,CUST_070,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1288,2025-02-26,CUST_070,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,UPI
+TX-1288,2025-02-26,CUST_070,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,UPI
+TX-1289,2025-02-26,CUST_057,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1289,2025-02-26,CUST_057,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1290,2025-02-27,CUST_015,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Net Banking
+TX-1291,2025-02-27,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1291,2025-02-27,CUST_069,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1291,2025-02-27,CUST_069,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Credit Card
+TX-1292,2025-02-27,CUST_012,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1292,2025-02-27,CUST_012,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1292,2025-02-27,CUST_012,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Cash on Delivery
+TX-1293,2025-02-27,CUST_071,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1293,2025-02-27,CUST_071,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,UPI
+TX-1293,2025-02-27,CUST_071,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,UPI
+TX-1294,2025-02-27,CUST_058,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,UPI
+TX-1295,2025-02-27,CUST_002,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,UPI
+TX-1295,2025-02-27,CUST_002,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1296,2025-02-27,CUST_064,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1296,2025-02-27,CUST_064,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,UPI
+TX-1296,2025-02-27,CUST_064,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,UPI
+TX-1297,2025-02-27,CUST_068,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1297,2025-02-27,CUST_068,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Debit Card
+TX-1297,2025-02-27,CUST_068,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Debit Card
+TX-1298,2025-02-28,CUST_014,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1298,2025-02-28,CUST_014,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Cash on Delivery
+TX-1299,2025-02-28,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1299,2025-02-28,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1299,2025-02-28,CUST_063,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1300,2025-02-28,CUST_042,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1300,2025-02-28,CUST_042,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Net Banking
+TX-1300,2025-02-28,CUST_042,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Net Banking
+TX-1301,2025-02-28,CUST_050,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1301,2025-02-28,CUST_050,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Net Banking
+TX-1301,2025-02-28,CUST_050,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Net Banking
+TX-1302,2025-02-28,CUST_008,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Debit Card
+TX-1303,2025-02-28,CUST_007,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1303,2025-02-28,CUST_007,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1304,2025-02-28,CUST_070,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Net Banking
+TX-1304,2025-02-28,CUST_070,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Net Banking
+TX-1305,2025-03-01,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1305,2025-03-01,CUST_059,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1305,2025-03-01,CUST_059,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1306,2025-03-01,CUST_034,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1306,2025-03-01,CUST_034,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1307,2025-03-01,CUST_066,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1307,2025-03-01,CUST_066,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Debit Card
+TX-1307,2025-03-01,CUST_066,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Debit Card
+TX-1308,2025-03-01,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1308,2025-03-01,CUST_030,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1308,2025-03-01,CUST_030,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Cash on Delivery
+TX-1309,2025-03-01,CUST_035,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1309,2025-03-01,CUST_035,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Credit Card
+TX-1309,2025-03-01,CUST_035,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Credit Card
+TX-1310,2025-03-01,CUST_057,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1311,2025-03-01,CUST_070,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1311,2025-03-01,CUST_070,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Debit Card
+TX-1312,2025-03-02,CUST_067,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1312,2025-03-02,CUST_067,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Credit Card
+TX-1312,2025-03-02,CUST_067,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Credit Card
+TX-1313,2025-03-02,CUST_057,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Cash on Delivery
+TX-1313,2025-03-02,CUST_057,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Cash on Delivery
+TX-1314,2025-03-02,CUST_006,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1314,2025-03-02,CUST_006,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Net Banking
+TX-1314,2025-03-02,CUST_006,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Net Banking
+TX-1315,2025-03-02,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1315,2025-03-02,CUST_038,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Debit Card
+TX-1315,2025-03-02,CUST_038,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Debit Card
+TX-1316,2025-03-02,CUST_025,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Credit Card
+TX-1316,2025-03-02,CUST_025,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,Credit Card
+TX-1317,2025-03-02,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1317,2025-03-02,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,UPI
+TX-1318,2025-03-02,CUST_019,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1318,2025-03-02,CUST_019,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Cash on Delivery
+TX-1318,2025-03-02,CUST_019,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Cash on Delivery
+TX-1319,2025-03-02,CUST_064,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1319,2025-03-02,CUST_064,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Debit Card
+TX-1319,2025-03-02,CUST_064,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Debit Card
+TX-1320,2025-03-03,CUST_041,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,Net Banking
+TX-1320,2025-03-03,CUST_041,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Net Banking
+TX-1321,2025-03-03,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1321,2025-03-03,CUST_062,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Debit Card
+TX-1322,2025-03-03,CUST_021,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1322,2025-03-03,CUST_021,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1322,2025-03-03,CUST_021,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1323,2025-03-03,CUST_073,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,UPI
+TX-1324,2025-03-04,CUST_019,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1324,2025-03-04,CUST_019,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1325,2025-03-04,CUST_038,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,UPI
+TX-1325,2025-03-04,CUST_038,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,UPI
+TX-1326,2025-03-05,CUST_034,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1326,2025-03-05,CUST_034,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1327,2025-03-05,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1327,2025-03-05,CUST_025,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,UPI
+TX-1327,2025-03-05,CUST_025,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,UPI
+TX-1328,2025-03-05,CUST_065,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1328,2025-03-05,CUST_065,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Cash on Delivery
+TX-1329,2025-03-06,CUST_048,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1329,2025-03-06,CUST_048,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1329,2025-03-06,CUST_048,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1330,2025-03-06,CUST_046,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Mumbai,Net Banking
+TX-1331,2025-03-06,CUST_009,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1331,2025-03-06,CUST_009,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,UPI
+TX-1331,2025-03-06,CUST_009,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,UPI
+TX-1332,2025-03-06,CUST_039,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Cash on Delivery
+TX-1332,2025-03-06,CUST_039,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Mumbai,Cash on Delivery
+TX-1333,2025-03-07,CUST_033,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Credit Card
+TX-1333,2025-03-07,CUST_033,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Credit Card
+TX-1334,2025-03-07,CUST_018,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1334,2025-03-07,CUST_018,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Debit Card
+TX-1334,2025-03-07,CUST_018,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Debit Card
+TX-1335,2025-03-07,CUST_019,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Hyderabad,Debit Card
+TX-1335,2025-03-07,CUST_019,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Debit Card
+TX-1336,2025-03-07,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1336,2025-03-07,CUST_010,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1336,2025-03-07,CUST_010,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Credit Card
+TX-1337,2025-03-07,CUST_003,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Hyderabad,Net Banking
+TX-1338,2025-03-07,CUST_065,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Credit Card
+TX-1338,2025-03-07,CUST_065,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Credit Card
+TX-1339,2025-03-08,CUST_045,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Mumbai,Cash on Delivery
+TX-1339,2025-03-08,CUST_045,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Mumbai,Cash on Delivery
+TX-1340,2025-03-08,CUST_048,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1340,2025-03-08,CUST_048,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Net Banking
+TX-1341,2025-03-08,CUST_024,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1341,2025-03-08,CUST_024,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Debit Card
+TX-1341,2025-03-08,CUST_024,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Debit Card
+TX-1342,2025-03-08,CUST_065,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1342,2025-03-08,CUST_065,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Net Banking
+TX-1342,2025-03-08,CUST_065,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Net Banking
+TX-1343,2025-03-08,CUST_043,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1343,2025-03-08,CUST_043,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Net Banking
+TX-1343,2025-03-08,CUST_043,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1344,2025-03-09,CUST_048,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1344,2025-03-09,CUST_048,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1344,2025-03-09,CUST_048,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Debit Card
+TX-1345,2025-03-09,CUST_050,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1345,2025-03-09,CUST_050,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Net Banking
+TX-1345,2025-03-09,CUST_050,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Net Banking
+TX-1346,2025-03-09,CUST_046,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1346,2025-03-09,CUST_046,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Net Banking
+TX-1346,2025-03-09,CUST_046,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Net Banking
+TX-1347,2025-03-10,CUST_015,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Credit Card
+TX-1348,2025-03-10,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Debit Card
+TX-1348,2025-03-10,CUST_059,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Debit Card
+TX-1349,2025-03-10,CUST_068,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1349,2025-03-10,CUST_068,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Cash on Delivery
+TX-1349,2025-03-10,CUST_068,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Cash on Delivery
+TX-1350,2025-03-10,CUST_053,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1350,2025-03-10,CUST_053,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1351,2025-03-11,CUST_046,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1352,2025-03-11,CUST_011,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Net Banking
+TX-1353,2025-03-11,CUST_028,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Chennai,UPI
+TX-1353,2025-03-11,CUST_028,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1354,2025-03-11,CUST_011,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,Cash on Delivery
+TX-1354,2025-03-11,CUST_011,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Cash on Delivery
+TX-1355,2025-03-12,CUST_033,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1355,2025-03-12,CUST_033,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Net Banking
+TX-1355,2025-03-12,CUST_033,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1356,2025-03-12,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1356,2025-03-12,CUST_051,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1357,2025-03-12,CUST_004,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1357,2025-03-12,CUST_004,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Net Banking
+TX-1357,2025-03-12,CUST_004,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Net Banking
+TX-1358,2025-03-12,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1358,2025-03-12,CUST_072,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Net Banking
+TX-1358,2025-03-12,CUST_072,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,Net Banking
+TX-1359,2025-03-12,CUST_031,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1359,2025-03-12,CUST_031,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Cash on Delivery
+TX-1360,2025-03-13,CUST_064,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1360,2025-03-13,CUST_064,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Cash on Delivery
+TX-1361,2025-03-13,CUST_035,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1362,2025-03-13,CUST_001,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Cash on Delivery
+TX-1363,2025-03-14,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1363,2025-03-14,CUST_030,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Net Banking
+TX-1363,2025-03-14,CUST_030,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Net Banking
+TX-1364,2025-03-14,CUST_045,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1365,2025-03-14,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1365,2025-03-14,CUST_066,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Credit Card
+TX-1365,2025-03-14,CUST_066,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Credit Card
+TX-1366,2025-03-14,CUST_039,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1366,2025-03-14,CUST_039,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Net Banking
+TX-1366,2025-03-14,CUST_039,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Net Banking
+TX-1367,2025-03-14,CUST_017,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1367,2025-03-14,CUST_017,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Cash on Delivery
+TX-1367,2025-03-14,CUST_017,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Cash on Delivery
+TX-1368,2025-03-15,CUST_031,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1368,2025-03-15,CUST_031,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Credit Card
+TX-1369,2025-03-15,CUST_020,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Credit Card
+TX-1369,2025-03-15,CUST_020,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Delhi NCR,Credit Card
+TX-1370,2025-03-16,CUST_031,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1370,2025-03-16,CUST_031,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1370,2025-03-16,CUST_031,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Credit Card
+TX-1371,2025-03-16,CUST_049,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1371,2025-03-16,CUST_049,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,UPI
+TX-1371,2025-03-16,CUST_049,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,UPI
+TX-1372,2025-03-16,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1372,2025-03-16,CUST_038,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Credit Card
+TX-1372,2025-03-16,CUST_038,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Credit Card
+TX-1373,2025-03-16,CUST_064,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1373,2025-03-16,CUST_064,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1373,2025-03-16,CUST_064,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1374,2025-03-16,CUST_027,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1374,2025-03-16,CUST_027,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1375,2025-03-17,CUST_049,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Debit Card
+TX-1376,2025-03-17,CUST_010,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Cash on Delivery
+TX-1377,2025-03-17,CUST_073,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Debit Card
+TX-1377,2025-03-17,CUST_073,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1378,2025-03-17,CUST_071,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1378,2025-03-17,CUST_071,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Cash on Delivery
+TX-1379,2025-03-17,CUST_002,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,UPI
+TX-1379,2025-03-17,CUST_002,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1380,2025-03-17,CUST_008,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Credit Card
+TX-1380,2025-03-17,CUST_008,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,Credit Card
+TX-1381,2025-03-18,CUST_054,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1381,2025-03-18,CUST_054,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Cash on Delivery
+TX-1382,2025-03-18,CUST_013,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Credit Card
+TX-1382,2025-03-18,CUST_013,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Credit Card
+TX-1382,2025-03-18,CUST_013,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Credit Card
+TX-1383,2025-03-19,CUST_003,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,UPI
+TX-1383,2025-03-19,CUST_003,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Pune,UPI
+TX-1384,2025-03-19,CUST_016,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1385,2025-03-20,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1385,2025-03-20,CUST_025,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1385,2025-03-20,CUST_025,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1386,2025-03-20,CUST_043,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1386,2025-03-20,CUST_043,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Debit Card
+TX-1387,2025-03-20,CUST_073,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1387,2025-03-20,CUST_073,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,UPI
+TX-1387,2025-03-20,CUST_073,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1388,2025-03-20,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1389,2025-03-20,CUST_009,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1389,2025-03-20,CUST_009,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Debit Card
+TX-1390,2025-03-20,CUST_022,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1390,2025-03-20,CUST_022,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,UPI
+TX-1390,2025-03-20,CUST_022,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,UPI
+TX-1391,2025-03-20,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1391,2025-03-20,CUST_026,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1391,2025-03-20,CUST_026,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Credit Card
+TX-1392,2025-03-20,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1392,2025-03-20,CUST_072,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1393,2025-03-21,CUST_054,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1394,2025-03-21,CUST_054,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1394,2025-03-21,CUST_054,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1395,2025-03-21,CUST_061,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Delhi NCR,Cash on Delivery
+TX-1395,2025-03-21,CUST_061,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Cash on Delivery
+TX-1396,2025-03-21,CUST_006,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Debit Card
+TX-1396,2025-03-21,CUST_006,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Chennai,Debit Card
+TX-1397,2025-03-21,CUST_041,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1397,2025-03-21,CUST_041,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Net Banking
+TX-1397,2025-03-21,CUST_041,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Net Banking
+TX-1398,2025-03-22,CUST_011,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,UPI
+TX-1399,2025-03-22,CUST_017,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1399,2025-03-22,CUST_017,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1400,2025-03-22,CUST_008,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1400,2025-03-22,CUST_008,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Credit Card
+TX-1401,2025-03-22,CUST_065,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1401,2025-03-22,CUST_065,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,UPI
+TX-1401,2025-03-22,CUST_065,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,UPI
+TX-1402,2025-03-22,CUST_044,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1402,2025-03-22,CUST_044,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1402,2025-03-22,CUST_044,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Cash on Delivery
+TX-1403,2025-03-22,CUST_042,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1403,2025-03-22,CUST_042,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1403,2025-03-22,CUST_042,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Cash on Delivery
+TX-1404,2025-03-22,CUST_072,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1404,2025-03-22,CUST_072,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1404,2025-03-22,CUST_072,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Cash on Delivery
+TX-1405,2025-03-23,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,UPI
+TX-1405,2025-03-23,CUST_010,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,UPI
+TX-1406,2025-03-23,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1406,2025-03-23,CUST_001,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Cash on Delivery
+TX-1407,2025-03-23,CUST_035,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1407,2025-03-23,CUST_035,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,UPI
+TX-1407,2025-03-23,CUST_035,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1408,2025-03-23,CUST_045,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1408,2025-03-23,CUST_045,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Cash on Delivery
+TX-1408,2025-03-23,CUST_045,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Cash on Delivery
+TX-1409,2025-03-23,CUST_001,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Delhi NCR,Credit Card
+TX-1409,2025-03-23,CUST_001,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Credit Card
+TX-1410,2025-03-23,CUST_041,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1410,2025-03-23,CUST_041,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Debit Card
+TX-1410,2025-03-23,CUST_041,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Debit Card
+TX-1411,2025-03-24,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1411,2025-03-24,CUST_026,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Net Banking
+TX-1411,2025-03-24,CUST_026,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Net Banking
+TX-1412,2025-03-24,CUST_026,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Cash on Delivery
+TX-1413,2025-03-24,CUST_046,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1413,2025-03-24,CUST_046,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,UPI
+TX-1413,2025-03-24,CUST_046,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,UPI
+TX-1414,2025-03-24,CUST_001,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Bengaluru,Net Banking
+TX-1415,2025-03-25,CUST_023,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1415,2025-03-25,CUST_023,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Cash on Delivery
+TX-1415,2025-03-25,CUST_023,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Cash on Delivery
+TX-1416,2025-03-25,CUST_060,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1416,2025-03-25,CUST_060,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Cash on Delivery
+TX-1417,2025-03-25,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Debit Card
+TX-1417,2025-03-25,CUST_068,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Debit Card
+TX-1417,2025-03-25,CUST_068,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Debit Card
+TX-1418,2025-03-25,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Credit Card
+TX-1418,2025-03-25,CUST_069,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Credit Card
+TX-1418,2025-03-25,CUST_069,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Credit Card
+TX-1419,2025-03-25,CUST_027,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1419,2025-03-25,CUST_027,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1420,2025-03-25,CUST_039,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1420,2025-03-25,CUST_039,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Cash on Delivery
+TX-1420,2025-03-25,CUST_039,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Cash on Delivery
+TX-1421,2025-03-26,CUST_031,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1421,2025-03-26,CUST_031,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Credit Card
+TX-1421,2025-03-26,CUST_031,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Credit Card
+TX-1422,2025-03-26,CUST_011,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,UPI
+TX-1422,2025-03-26,CUST_011,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,UPI
+TX-1423,2025-03-26,CUST_025,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1423,2025-03-26,CUST_025,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1424,2025-03-26,CUST_051,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,UPI
+TX-1424,2025-03-26,CUST_051,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,UPI
+TX-1425,2025-03-26,CUST_057,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1426,2025-03-26,CUST_047,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1426,2025-03-26,CUST_047,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1426,2025-03-26,CUST_047,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,UPI
+TX-1427,2025-03-26,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1427,2025-03-26,CUST_068,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1428,2025-03-26,CUST_058,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1428,2025-03-26,CUST_058,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Credit Card
+TX-1428,2025-03-26,CUST_058,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Credit Card
+TX-1429,2025-03-27,CUST_006,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1430,2025-03-27,CUST_019,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,Net Banking
+TX-1431,2025-03-27,CUST_007,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1432,2025-03-27,CUST_005,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1432,2025-03-27,CUST_005,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Debit Card
+TX-1432,2025-03-27,CUST_005,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Debit Card
+TX-1433,2025-03-28,CUST_069,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1433,2025-03-28,CUST_069,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1433,2025-03-28,CUST_069,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1434,2025-03-28,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1434,2025-03-28,CUST_069,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1434,2025-03-28,CUST_069,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Credit Card
+TX-1435,2025-03-28,CUST_054,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1436,2025-03-28,CUST_074,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1437,2025-03-28,CUST_071,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1437,2025-03-28,CUST_071,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Net Banking
+TX-1437,2025-03-28,CUST_071,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1438,2025-03-28,CUST_024,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1438,2025-03-28,CUST_024,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Credit Card
+TX-1438,2025-03-28,CUST_024,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Credit Card
+TX-1439,2025-03-28,CUST_020,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,UPI
+TX-1439,2025-03-28,CUST_020,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,UPI
+TX-1439,2025-03-28,CUST_020,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,UPI
+TX-1440,2025-03-29,CUST_066,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1440,2025-03-29,CUST_066,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Cash on Delivery
+TX-1441,2025-03-29,CUST_027,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Delhi NCR,UPI
+TX-1441,2025-03-29,CUST_027,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,UPI
+TX-1442,2025-03-29,CUST_026,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1442,2025-03-29,CUST_026,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Credit Card
+TX-1442,2025-03-29,CUST_026,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Credit Card
+TX-1443,2025-03-29,CUST_021,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1444,2025-03-29,CUST_036,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1444,2025-03-29,CUST_036,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Cash on Delivery
+TX-1445,2025-03-29,CUST_048,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1445,2025-03-29,CUST_048,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,UPI
+TX-1446,2025-03-29,CUST_035,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1446,2025-03-29,CUST_035,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Net Banking
+TX-1447,2025-03-29,CUST_015,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1447,2025-03-29,CUST_015,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1447,2025-03-29,CUST_015,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Cash on Delivery
+TX-1448,2025-03-30,CUST_017,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,UPI
+TX-1448,2025-03-30,CUST_017,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1449,2025-03-30,CUST_069,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1449,2025-03-30,CUST_069,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1449,2025-03-30,CUST_069,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1450,2025-03-30,CUST_058,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Net Banking
+TX-1450,2025-03-30,CUST_058,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Net Banking
+TX-1450,2025-03-30,CUST_058,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Net Banking
+TX-1451,2025-03-30,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1452,2025-03-30,CUST_073,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1452,2025-03-30,CUST_073,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Net Banking
+TX-1452,2025-03-30,CUST_073,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Net Banking
+TX-1453,2025-03-31,CUST_037,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Mumbai,Credit Card
+TX-1454,2025-03-31,CUST_018,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1454,2025-03-31,CUST_018,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Net Banking
+TX-1454,2025-03-31,CUST_018,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Net Banking
+TX-1455,2025-03-31,CUST_007,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1455,2025-03-31,CUST_007,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1456,2025-03-31,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1456,2025-03-31,CUST_001,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Credit Card
+TX-1457,2025-03-31,CUST_029,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1457,2025-03-31,CUST_029,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1457,2025-03-31,CUST_029,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,UPI
+TX-1458,2025-03-31,CUST_047,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1458,2025-03-31,CUST_047,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Net Banking
+TX-1458,2025-03-31,CUST_047,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Net Banking
+TX-1459,2025-03-31,CUST_060,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1459,2025-03-31,CUST_060,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Credit Card
+TX-1459,2025-03-31,CUST_060,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Credit Card
+TX-1460,2025-04-01,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1460,2025-04-01,CUST_025,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Cash on Delivery
+TX-1460,2025-04-01,CUST_025,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Cash on Delivery
+TX-1461,2025-04-01,CUST_039,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1461,2025-04-01,CUST_039,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,UPI
+TX-1461,2025-04-01,CUST_039,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,UPI
+TX-1462,2025-04-01,CUST_035,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,UPI
+TX-1462,2025-04-01,CUST_035,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,UPI
+TX-1463,2025-04-01,CUST_037,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1463,2025-04-01,CUST_037,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Debit Card
+TX-1463,2025-04-01,CUST_037,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1464,2025-04-01,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1464,2025-04-01,CUST_066,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Debit Card
+TX-1464,2025-04-01,CUST_066,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Debit Card
+TX-1465,2025-04-02,CUST_032,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Net Banking
+TX-1465,2025-04-02,CUST_032,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Net Banking
+TX-1465,2025-04-02,CUST_032,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Net Banking
+TX-1466,2025-04-02,CUST_036,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1466,2025-04-02,CUST_036,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,UPI
+TX-1466,2025-04-02,CUST_036,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,UPI
+TX-1467,2025-04-03,CUST_019,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1467,2025-04-03,CUST_019,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Debit Card
+TX-1468,2025-04-03,CUST_047,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,UPI
+TX-1468,2025-04-03,CUST_047,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,UPI
+TX-1469,2025-04-03,CUST_065,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Credit Card
+TX-1469,2025-04-03,CUST_065,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Credit Card
+TX-1469,2025-04-03,CUST_065,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Credit Card
+TX-1470,2025-04-03,CUST_048,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,UPI
+TX-1470,2025-04-03,CUST_048,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,UPI
+TX-1471,2025-04-03,CUST_026,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1471,2025-04-03,CUST_026,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Cash on Delivery
+TX-1472,2025-04-03,CUST_058,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Mumbai,Cash on Delivery
+TX-1472,2025-04-03,CUST_058,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1473,2025-04-03,CUST_016,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Mumbai,Debit Card
+TX-1473,2025-04-03,CUST_016,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1474,2025-04-03,CUST_071,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1474,2025-04-03,CUST_071,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Cash on Delivery
+TX-1475,2025-04-04,CUST_003,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1475,2025-04-04,CUST_003,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Cash on Delivery
+TX-1476,2025-04-04,CUST_051,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1476,2025-04-04,CUST_051,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Debit Card
+TX-1477,2025-04-04,CUST_057,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Cash on Delivery
+TX-1477,2025-04-04,CUST_057,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Cash on Delivery
+TX-1477,2025-04-04,CUST_057,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Cash on Delivery
+TX-1478,2025-04-04,CUST_020,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1478,2025-04-04,CUST_020,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Net Banking
+TX-1478,2025-04-04,CUST_020,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Net Banking
+TX-1479,2025-04-04,CUST_064,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1479,2025-04-04,CUST_064,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Debit Card
+TX-1480,2025-04-04,CUST_030,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1481,2025-04-04,CUST_045,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Credit Card
+TX-1482,2025-04-04,CUST_006,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Chennai,Credit Card
+TX-1483,2025-04-05,CUST_042,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1483,2025-04-05,CUST_042,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Chennai,Cash on Delivery
+TX-1484,2025-04-05,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Net Banking
+TX-1484,2025-04-05,CUST_010,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Net Banking
+TX-1484,2025-04-05,CUST_010,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Net Banking
+TX-1485,2025-04-05,CUST_012,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Credit Card
+TX-1485,2025-04-05,CUST_012,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Credit Card
+TX-1486,2025-04-06,CUST_038,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Mumbai,Net Banking
+TX-1486,2025-04-06,CUST_038,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Net Banking
+TX-1487,2025-04-06,CUST_053,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Debit Card
+TX-1487,2025-04-06,CUST_053,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Hyderabad,Debit Card
+TX-1488,2025-04-06,CUST_046,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Delhi NCR,UPI
+TX-1489,2025-04-06,CUST_038,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Debit Card
+TX-1490,2025-04-06,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1490,2025-04-06,CUST_059,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Net Banking
+TX-1490,2025-04-06,CUST_059,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Net Banking
+TX-1491,2025-04-06,CUST_035,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Credit Card
+TX-1491,2025-04-06,CUST_035,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1492,2025-04-06,CUST_061,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1492,2025-04-06,CUST_061,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1493,2025-04-07,CUST_020,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Net Banking
+TX-1494,2025-04-07,CUST_038,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Net Banking
+TX-1495,2025-04-08,CUST_054,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,Net Banking
+TX-1496,2025-04-08,CUST_046,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1496,2025-04-08,CUST_046,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1497,2025-04-08,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1497,2025-04-08,CUST_059,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Debit Card
+TX-1498,2025-04-08,CUST_003,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1498,2025-04-08,CUST_003,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Credit Card
+TX-1498,2025-04-08,CUST_003,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Credit Card
+TX-1499,2025-04-09,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1499,2025-04-09,CUST_066,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Credit Card
+TX-1500,2025-04-09,CUST_062,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Bengaluru,Cash on Delivery
+TX-1500,2025-04-09,CUST_062,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Cash on Delivery
+TX-1501,2025-04-09,CUST_057,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1501,2025-04-09,CUST_057,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Debit Card
+TX-1501,2025-04-09,CUST_057,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Debit Card
+TX-1502,2025-04-09,CUST_017,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1502,2025-04-09,CUST_017,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Cash on Delivery
+TX-1502,2025-04-09,CUST_017,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Cash on Delivery
+TX-1503,2025-04-09,CUST_058,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Net Banking
+TX-1503,2025-04-09,CUST_058,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Net Banking
+TX-1503,2025-04-09,CUST_058,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Net Banking
+TX-1504,2025-04-09,CUST_052,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Chennai,Debit Card
+TX-1504,2025-04-09,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Debit Card
+TX-1505,2025-04-09,CUST_049,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1505,2025-04-09,CUST_049,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Cash on Delivery
+TX-1506,2025-04-10,CUST_004,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1507,2025-04-10,CUST_017,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1507,2025-04-10,CUST_017,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Mumbai,Credit Card
+TX-1508,2025-04-10,CUST_017,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Delhi NCR,Cash on Delivery
+TX-1509,2025-04-10,CUST_044,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Pune,Net Banking
+TX-1510,2025-04-10,CUST_006,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1510,2025-04-10,CUST_006,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1510,2025-04-10,CUST_006,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1511,2025-04-10,CUST_004,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,UPI
+TX-1512,2025-04-10,CUST_022,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1512,2025-04-10,CUST_022,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,UPI
+TX-1513,2025-04-11,CUST_062,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,UPI
+TX-1513,2025-04-11,CUST_062,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,UPI
+TX-1513,2025-04-11,CUST_062,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,UPI
+TX-1514,2025-04-11,CUST_022,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1514,2025-04-11,CUST_022,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1515,2025-04-11,CUST_020,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1515,2025-04-11,CUST_020,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Cash on Delivery
+TX-1515,2025-04-11,CUST_020,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Cash on Delivery
+TX-1516,2025-04-11,CUST_017,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1517,2025-04-11,CUST_028,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1517,2025-04-11,CUST_028,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1517,2025-04-11,CUST_028,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Cash on Delivery
+TX-1518,2025-04-11,CUST_017,Ceramic Coffee Mug,Dining,2,699.0,898.0,500.0,Pune,Cash on Delivery
+TX-1519,2025-04-12,CUST_053,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Hyderabad,UPI
+TX-1520,2025-04-12,CUST_012,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Cash on Delivery
+TX-1520,2025-04-12,CUST_012,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Cash on Delivery
+TX-1520,2025-04-12,CUST_012,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Cash on Delivery
+TX-1521,2025-04-12,CUST_062,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1521,2025-04-12,CUST_062,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,UPI
+TX-1521,2025-04-12,CUST_062,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,UPI
+TX-1522,2025-04-13,CUST_043,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1522,2025-04-13,CUST_043,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,UPI
+TX-1522,2025-04-13,CUST_043,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,UPI
+TX-1523,2025-04-13,CUST_023,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1523,2025-04-13,CUST_023,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1524,2025-04-13,CUST_054,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1524,2025-04-13,CUST_054,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,UPI
+TX-1524,2025-04-13,CUST_054,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,UPI
+TX-1525,2025-04-13,CUST_066,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1525,2025-04-13,CUST_066,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,Debit Card
+TX-1526,2025-04-13,CUST_028,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Cash on Delivery
+TX-1526,2025-04-13,CUST_028,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Cash on Delivery
+TX-1527,2025-04-13,CUST_060,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1527,2025-04-13,CUST_060,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Net Banking
+TX-1527,2025-04-13,CUST_060,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Net Banking
+TX-1528,2025-04-13,CUST_028,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1528,2025-04-13,CUST_028,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1529,2025-04-13,CUST_072,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1529,2025-04-13,CUST_072,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Debit Card
+TX-1529,2025-04-13,CUST_072,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Debit Card
+TX-1530,2025-04-14,CUST_031,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1530,2025-04-14,CUST_031,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Cash on Delivery
+TX-1530,2025-04-14,CUST_031,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Cash on Delivery
+TX-1531,2025-04-14,CUST_073,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1531,2025-04-14,CUST_073,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Delhi NCR,Debit Card
+TX-1532,2025-04-14,CUST_053,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Credit Card
+TX-1533,2025-04-14,CUST_003,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Cash on Delivery
+TX-1533,2025-04-14,CUST_003,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Cash on Delivery
+TX-1534,2025-04-14,CUST_062,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1534,2025-04-14,CUST_062,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1534,2025-04-14,CUST_062,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,UPI
+TX-1535,2025-04-15,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1535,2025-04-15,CUST_052,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,UPI
+TX-1535,2025-04-15,CUST_052,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,UPI
+TX-1536,2025-04-15,CUST_047,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Net Banking
+TX-1536,2025-04-15,CUST_047,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Hyderabad,Net Banking
+TX-1537,2025-04-15,CUST_061,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1537,2025-04-15,CUST_061,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Credit Card
+TX-1537,2025-04-15,CUST_061,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Credit Card
+TX-1538,2025-04-15,CUST_069,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Net Banking
+TX-1538,2025-04-15,CUST_069,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Net Banking
+TX-1539,2025-04-15,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1539,2025-04-15,CUST_051,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Net Banking
+TX-1539,2025-04-15,CUST_051,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Net Banking
+TX-1540,2025-04-15,CUST_072,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1540,2025-04-15,CUST_072,Noise-Cancelling Headphones,Audio,1,19999.0,19999.0,0.0,Chennai,Cash on Delivery
+TX-1541,2025-04-15,CUST_001,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1541,2025-04-15,CUST_001,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Cash on Delivery
+TX-1541,2025-04-15,CUST_001,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Cash on Delivery
+TX-1542,2025-04-16,CUST_042,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1542,2025-04-16,CUST_042,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,UPI
+TX-1543,2025-04-16,CUST_008,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,UPI
+TX-1543,2025-04-16,CUST_008,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,UPI
+TX-1543,2025-04-16,CUST_008,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,UPI
+TX-1544,2025-04-16,CUST_045,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Net Banking
+TX-1544,2025-04-16,CUST_045,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Net Banking
+TX-1544,2025-04-16,CUST_045,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Pune,Net Banking
+TX-1545,2025-04-16,CUST_054,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Net Banking
+TX-1546,2025-04-16,CUST_034,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1546,2025-04-16,CUST_034,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Cash on Delivery
+TX-1546,2025-04-16,CUST_034,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Cash on Delivery
+TX-1547,2025-04-16,CUST_018,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,UPI
+TX-1547,2025-04-16,CUST_018,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,UPI
+TX-1548,2025-04-16,CUST_020,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1548,2025-04-16,CUST_020,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Net Banking
+TX-1549,2025-04-17,CUST_017,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1549,2025-04-17,CUST_017,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Bengaluru,Credit Card
+TX-1549,2025-04-17,CUST_017,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
+TX-1550,2025-04-17,CUST_058,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Cash on Delivery
+TX-1550,2025-04-17,CUST_058,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Pune,Cash on Delivery
+TX-1550,2025-04-17,CUST_058,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Cash on Delivery
+TX-1551,2025-04-17,CUST_059,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Debit Card
+TX-1551,2025-04-17,CUST_059,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Debit Card
+TX-1551,2025-04-17,CUST_059,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Debit Card
+TX-1552,2025-04-17,CUST_031,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1552,2025-04-17,CUST_031,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Net Banking
+TX-1552,2025-04-17,CUST_031,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1553,2025-04-17,CUST_071,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Net Banking
+TX-1553,2025-04-17,CUST_071,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Net Banking
+TX-1553,2025-04-17,CUST_071,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Hyderabad,Net Banking
+TX-1554,2025-04-17,CUST_030,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1554,2025-04-17,CUST_030,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Credit Card
+TX-1555,2025-04-18,CUST_043,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Cash on Delivery
+TX-1555,2025-04-18,CUST_043,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Pune,Cash on Delivery
+TX-1556,2025-04-18,CUST_018,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,UPI
+TX-1556,2025-04-18,CUST_018,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,UPI
+TX-1556,2025-04-18,CUST_018,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,UPI
+TX-1557,2025-04-18,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1557,2025-04-18,CUST_063,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Credit Card
+TX-1558,2025-04-18,CUST_063,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,UPI
+TX-1559,2025-04-18,CUST_011,Mechanical Keyboard,Accessories,1,9999.0,9999.0,0.0,Chennai,Net Banking
+TX-1560,2025-04-19,CUST_047,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Debit Card
+TX-1560,2025-04-19,CUST_047,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Debit Card
+TX-1560,2025-04-19,CUST_047,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Chennai,Debit Card
+TX-1561,2025-04-19,CUST_025,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1561,2025-04-19,CUST_025,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Delhi NCR,Credit Card
+TX-1561,2025-04-19,CUST_025,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Delhi NCR,Credit Card
+TX-1562,2025-04-19,CUST_041,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Net Banking
+TX-1562,2025-04-19,CUST_041,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Net Banking
+TX-1562,2025-04-19,CUST_041,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Net Banking
+TX-1563,2025-04-19,CUST_011,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Chennai,Cash on Delivery
+TX-1564,2025-04-19,CUST_054,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Net Banking
+TX-1564,2025-04-19,CUST_054,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Net Banking
+TX-1564,2025-04-19,CUST_054,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,Net Banking
+TX-1565,2025-04-19,CUST_059,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Delhi NCR,UPI
+TX-1566,2025-04-20,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1566,2025-04-20,CUST_072,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Debit Card
+TX-1567,2025-04-20,CUST_063,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,UPI
+TX-1567,2025-04-20,CUST_063,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,UPI
+TX-1568,2025-04-20,CUST_036,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1568,2025-04-20,CUST_036,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1568,2025-04-20,CUST_036,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Cash on Delivery
+TX-1569,2025-04-20,CUST_014,Ceramic Coffee Mug,Dining,1,699.0,699.0,0.0,Delhi NCR,Cash on Delivery
+TX-1570,2025-04-20,CUST_064,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Net Banking
+TX-1571,2025-04-20,CUST_030,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Net Banking
+TX-1572,2025-04-20,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1573,2025-04-20,CUST_037,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Pune,Credit Card
+TX-1573,2025-04-20,CUST_037,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Credit Card
+TX-1574,2025-04-21,CUST_009,Noise-Cancelling Headphones,Audio,2,19999.0,39498.0,500.0,Delhi NCR,Debit Card
+TX-1574,2025-04-21,CUST_009,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1575,2025-04-21,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Credit Card
+TX-1575,2025-04-21,CUST_010,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Credit Card
+TX-1575,2025-04-21,CUST_010,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Delhi NCR,Credit Card
+TX-1576,2025-04-21,CUST_046,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1576,2025-04-21,CUST_046,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Chennai,Net Banking
+TX-1576,2025-04-21,CUST_046,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Net Banking
+TX-1577,2025-04-22,CUST_026,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Delhi NCR,Debit Card
+TX-1577,2025-04-22,CUST_026,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Delhi NCR,Debit Card
+TX-1578,2025-04-22,CUST_065,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1578,2025-04-22,CUST_065,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1579,2025-04-22,CUST_067,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Net Banking
+TX-1580,2025-04-22,CUST_010,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1580,2025-04-22,CUST_010,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Credit Card
+TX-1580,2025-04-22,CUST_010,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Credit Card
+TX-1581,2025-04-22,CUST_042,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Cash on Delivery
+TX-1581,2025-04-22,CUST_042,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Cash on Delivery
+TX-1582,2025-04-22,CUST_027,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1582,2025-04-22,CUST_027,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1582,2025-04-22,CUST_027,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Credit Card
+TX-1583,2025-04-22,CUST_073,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Credit Card
+TX-1583,2025-04-22,CUST_073,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Credit Card
+TX-1583,2025-04-22,CUST_073,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,Credit Card
+TX-1584,2025-04-22,CUST_020,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Credit Card
+TX-1584,2025-04-22,CUST_020,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,Credit Card
+TX-1584,2025-04-22,CUST_020,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Credit Card
+TX-1585,2025-04-23,CUST_002,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Credit Card
+TX-1585,2025-04-23,CUST_002,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Credit Card
+TX-1586,2025-04-23,CUST_024,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1586,2025-04-23,CUST_024,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Credit Card
+TX-1587,2025-04-23,CUST_014,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Credit Card
+TX-1587,2025-04-23,CUST_014,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Delhi NCR,Credit Card
+TX-1587,2025-04-23,CUST_014,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Delhi NCR,Credit Card
+TX-1588,2025-04-23,CUST_036,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Cash on Delivery
+TX-1589,2025-04-24,CUST_069,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,Cash on Delivery
+TX-1589,2025-04-24,CUST_069,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Hyderabad,Cash on Delivery
+TX-1589,2025-04-24,CUST_069,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Hyderabad,Cash on Delivery
+TX-1590,2025-04-24,CUST_070,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Hyderabad,UPI
+TX-1590,2025-04-24,CUST_070,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Hyderabad,UPI
+TX-1591,2025-04-24,CUST_043,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Cash on Delivery
+TX-1592,2025-04-24,CUST_029,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,UPI
+TX-1592,2025-04-24,CUST_029,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,UPI
+TX-1593,2025-04-25,CUST_072,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1593,2025-04-25,CUST_072,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Debit Card
+TX-1593,2025-04-25,CUST_072,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,Debit Card
+TX-1594,2025-04-25,CUST_054,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1594,2025-04-25,CUST_054,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1594,2025-04-25,CUST_054,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Cash on Delivery
+TX-1595,2025-04-25,CUST_067,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Credit Card
+TX-1595,2025-04-25,CUST_067,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Mumbai,Credit Card
+TX-1595,2025-04-25,CUST_067,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Mumbai,Credit Card
+TX-1596,2025-04-25,CUST_070,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Net Banking
+TX-1596,2025-04-25,CUST_070,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Chennai,Net Banking
+TX-1597,2025-04-25,CUST_020,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Mumbai,Debit Card
+TX-1597,2025-04-25,CUST_020,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Debit Card
+TX-1598,2025-04-26,CUST_043,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Cash on Delivery
+TX-1598,2025-04-26,CUST_043,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Cash on Delivery
+TX-1598,2025-04-26,CUST_043,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Chennai,Cash on Delivery
+TX-1599,2025-04-26,CUST_053,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Chennai,Net Banking
+TX-1599,2025-04-26,CUST_053,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Chennai,Net Banking
+TX-1599,2025-04-26,CUST_053,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Chennai,Net Banking
+TX-1600,2025-04-26,CUST_026,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Cash on Delivery
+TX-1600,2025-04-26,CUST_026,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Cash on Delivery
+TX-1600,2025-04-26,CUST_026,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Cash on Delivery
+TX-1601,2025-04-26,CUST_039,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,Debit Card
+TX-1601,2025-04-26,CUST_039,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Bengaluru,Debit Card
+TX-1601,2025-04-26,CUST_039,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,Debit Card
+TX-1602,2025-04-26,CUST_042,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Net Banking
+TX-1602,2025-04-26,CUST_042,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Net Banking
+TX-1602,2025-04-26,CUST_042,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Net Banking
+TX-1603,2025-04-26,CUST_046,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Hyderabad,UPI
+TX-1603,2025-04-26,CUST_046,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Hyderabad,UPI
+TX-1604,2025-04-27,CUST_052,27-inch 4K Monitor,Displays,1,34999.0,34999.0,0.0,Pune,Net Banking
+TX-1604,2025-04-27,CUST_052,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Pune,Net Banking
+TX-1605,2025-04-27,CUST_013,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Cash on Delivery
+TX-1606,2025-04-27,CUST_045,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Delhi NCR,Debit Card
+TX-1606,2025-04-27,CUST_045,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Delhi NCR,Debit Card
+TX-1606,2025-04-27,CUST_045,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Delhi NCR,Debit Card
+TX-1607,2025-04-27,CUST_029,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1607,2025-04-27,CUST_029,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1607,2025-04-27,CUST_029,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Bengaluru,UPI
+TX-1608,2025-04-28,CUST_067,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Debit Card
+TX-1608,2025-04-28,CUST_067,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Debit Card
+TX-1608,2025-04-28,CUST_067,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Pune,Debit Card
+TX-1609,2025-04-28,CUST_051,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Credit Card
+TX-1609,2025-04-28,CUST_051,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Pune,Credit Card
+TX-1610,2025-04-29,CUST_038,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Mumbai,Credit Card
+TX-1611,2025-04-29,CUST_052,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,UPI
+TX-1611,2025-04-29,CUST_052,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,UPI
+TX-1611,2025-04-29,CUST_052,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Mumbai,UPI
+TX-1612,2025-04-29,CUST_004,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1612,2025-04-29,CUST_004,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Credit Card
+TX-1612,2025-04-29,CUST_004,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Credit Card
+TX-1613,2025-04-29,CUST_061,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Cash on Delivery
+TX-1613,2025-04-29,CUST_061,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Cash on Delivery
+TX-1613,2025-04-29,CUST_061,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Bengaluru,Cash on Delivery
+TX-1614,2025-04-29,CUST_043,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Bengaluru,UPI
+TX-1614,2025-04-29,CUST_043,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Bengaluru,UPI
+TX-1614,2025-04-29,CUST_043,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Bengaluru,UPI
+TX-1615,2025-04-30,CUST_059,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1615,2025-04-30,CUST_059,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Hyderabad,Cash on Delivery
+TX-1616,2025-04-30,CUST_048,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Mumbai,Debit Card
+TX-1616,2025-04-30,CUST_048,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Mumbai,Debit Card
+TX-1616,2025-04-30,CUST_048,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Mumbai,Debit Card
+TX-1617,2025-04-30,CUST_012,Mechanical Keyboard,Accessories,2,9999.0,19498.0,500.0,Pune,Debit Card
+TX-1618,2025-04-30,CUST_072,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Pune,Net Banking
+TX-1618,2025-04-30,CUST_072,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Pune,Net Banking
+TX-1618,2025-04-30,CUST_072,Stainless Steel Milk Pitcher,Appliances,2,1299.0,2098.0,500.0,Pune,Net Banking
+TX-1619,2025-04-30,CUST_042,Organic Coffee Beans 1kg,Pantry,1,1899.0,1899.0,0.0,Mumbai,Credit Card
+TX-1619,2025-04-30,CUST_042,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Mumbai,Credit Card
+TX-1620,2025-04-30,CUST_002,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Hyderabad,Cash on Delivery
+TX-1620,2025-04-30,CUST_002,Magic Mouse,Accessories,1,7900.0,7900.0,0.0,Hyderabad,Cash on Delivery
+TX-1620,2025-04-30,CUST_002,USB-C Hub,Accessories,1,3499.0,3499.0,0.0,Hyderabad,Cash on Delivery
+TX-1621,2025-04-30,CUST_038,Espresso Machine,Appliances,1,42999.0,42999.0,0.0,Chennai,Credit Card
+TX-1621,2025-04-30,CUST_038,Organic Coffee Beans 1kg,Pantry,2,1899.0,3298.0,500.0,Chennai,Credit Card
+TX-1621,2025-04-30,CUST_038,Stainless Steel Milk Pitcher,Appliances,1,1299.0,1299.0,0.0,Chennai,Credit Card
+TX-1622,2025-04-30,CUST_068,MacBook Pro M3,Electronics,1,149900.0,149900.0,0.0,Bengaluru,Credit Card
+TX-1622,2025-04-30,CUST_068,Magic Mouse,Accessories,2,7900.0,15300.0,500.0,Bengaluru,Credit Card
+TX-1622,2025-04-30,CUST_068,USB-C Hub,Accessories,2,3499.0,6498.0,500.0,Bengaluru,Credit Card
